@@ -1,8 +1,1 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+mod p1523_count_odd_numbers_in_an_interval_range;
