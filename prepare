@@ -1,0 +1,84 @@
+#!/bin/sh
+
+action_solve() {
+    mod=$1
+    fn="src/${mod}.rs"
+
+
+    if [ -f "${fn}" ]; then
+        echo "solution already exists: ${fn}"
+        exit -1
+    fi
+
+    echo "mod ${mod};" >> "src/lib.rs"
+    echo "" 
+
+    echo "pub struct Solution {}"      >> "${fn}"
+    echo "#[cfg(test)]"                >> "${fn}"
+    echo "mod tests {"                 >> "${fn}"
+    echo "    use super::*;"           >> "${fn}"
+    echo ""                            >> "${fn}"
+    echo "    #[test]"                 >> "${fn}"
+    echo "    fn test_1() {"           >> "${fn}"
+    echo "        assert_eq!(2, 1+1);" >> "${fn}"
+    echo "    }"                       >> "${fn}"
+    echo "}"                           >> "${fn}"
+}
+
+action_git() {
+    problem=$1
+    mod=$2
+    comment=$3
+
+    fn="src/${mod}.rs"
+    lib="src/lib.rs"
+
+    if [ ! -f "${fn}" ]
+    then
+        echo "missing solution: ${main_file}"
+        exit -1
+    else
+        git add "${fn}"
+    fi
+
+    git add "${lib}"
+
+    if [ "x$comment" = "x" ]; then
+        text="${problem}"
+    else
+        text="${problem} // ${comment}"
+    fi
+
+    git commit -m "${text}"
+}
+
+# 430. Flatten a Multilevel Doubly Linked List
+PROBLEM=$1
+ACTION=$2
+OTHER=$3
+
+if [ -z "$PROBLEM" ]; then
+  echo "missing problem"
+  exit -1
+fi
+
+if [ -z "$ACTION" ]; then
+  ACTION="solve"
+fi
+
+NUM="$(echo $PROBLEM | cut -d'.' -f1)"     #  430
+PADDING_NUM="$(printf %04d $NUM)"          # 0430
+
+NAME="$(echo -n $PROBLEM | cut -d'.' -f2)"   
+JOINED_NAME="$(echo $NAME | sed 's/ /_/g' | awk '{print tolower($0)}')" 
+
+MOD="p${PADDING_NUM}_${JOINED_NAME}"
+
+case "${ACTION}" in
+    solve)
+        action_solve "${MOD}"
+        ;;
+    git)
+        action_git "${PROBLEM}" "${MOD}" "${OTHER}"
+        ;;
+esac
