@@ -6,3 +6,4 @@ mod p0976_largest_perimeter_triangle;
 mod p1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
 mod p1822_sign_of_the_product_of_an_array;
 mod p1502_can_make_arithmetic_progression_from_sequence;
+mod p0202_happy_number;
