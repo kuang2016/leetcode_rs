@@ -9,3 +9,4 @@ mod p1502_can_make_arithmetic_progression_from_sequence;
 mod p0202_happy_number;
 mod p1790_check_if_one_string_swap_can_make_strings_equal;
 mod p0496_next_greater_element_i;
+mod p1232_check_if_it_is_a_straight_line;
