@@ -5,3 +5,4 @@ mod p1281_subtract_the_product_and_sum_of_digits_of_an_integer;
 mod p0976_largest_perimeter_triangle;
 mod p1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
 mod p1822_sign_of_the_product_of_an_array;
+mod p1502_can_make_arithmetic_progression_from_sequence;
