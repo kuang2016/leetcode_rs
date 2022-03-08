@@ -7,3 +7,4 @@ mod p1779_find_nearest_point_that_has_the_same_x_or_y_coordinate;
 mod p1822_sign_of_the_product_of_an_array;
 mod p1502_can_make_arithmetic_progression_from_sequence;
 mod p0202_happy_number;
+mod p1790_check_if_one_string_swap_can_make_strings_equal;
