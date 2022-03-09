@@ -16,3 +16,4 @@ mod p1672_richest_customer_wealth;
 mod p1572_matrix_diagonal_sum;
 mod p0566_reshape_the_matrix;
 mod p1768_merge_strings_alternately;
+mod p1678_goal_parser_interpretation;
