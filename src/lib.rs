@@ -18,3 +18,4 @@ mod p0566_reshape_the_matrix;
 mod p1768_merge_strings_alternately;
 mod p1678_goal_parser_interpretation;
 mod p0389_find_the_difference;
+mod p0709_to_lower_case;
