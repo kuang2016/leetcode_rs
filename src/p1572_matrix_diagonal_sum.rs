@@ -1,6 +1,7 @@
 pub struct Solution {}
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn diagonal_sum(mat: Vec<Vec<i32>>) -> i32 {
         let n = mat.len();
 
