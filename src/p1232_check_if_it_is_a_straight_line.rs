@@ -1,5 +1,6 @@
 pub struct Solution {}
 
+#[allow(dead_code)]
 impl Solution {
     pub fn check_straight_line(coordinates: Vec<Vec<i32>>) -> bool {
         let dx = coordinates[1][0] - coordinates[0][0];
@@ -15,15 +16,5 @@ impl Solution {
         }
         
         return true;
-    }
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test_1() {
-        assert_eq!(2, 1+1);
     }
 }
