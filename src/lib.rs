@@ -11,3 +11,4 @@ mod p1790_check_if_one_string_swap_can_make_strings_equal;
 mod p0496_next_greater_element_i;
 mod p1232_check_if_it_is_a_straight_line;
 mod p1588_sum_of_all_odd_length_subarrays;
+mod p0283_move_zeroes;
