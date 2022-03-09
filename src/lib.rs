@@ -13,3 +13,4 @@ mod p1232_check_if_it_is_a_straight_line;
 mod p1588_sum_of_all_odd_length_subarrays;
 mod p0283_move_zeroes;
 mod p1672_richest_customer_wealth;
+mod p1572_matrix_diagonal_sum;
