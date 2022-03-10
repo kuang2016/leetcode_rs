@@ -1,6 +1,5 @@
 pub struct Solution {}
 
-#[allow(dead_code)]
 impl Solution {
     pub fn check_straight_line(coordinates: Vec<Vec<i32>>) -> bool {
         let dx = coordinates[1][0] - coordinates[0][0];
