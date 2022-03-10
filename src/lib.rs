@@ -25,3 +25,4 @@ mod p0389_find_the_difference;
 mod p0709_to_lower_case;
 mod p1309_decrypt_string_from_alphabet_to_integer_mapping;
 mod p0953_verifying_an_alien_dictionary;
+mod p1290_convert_binary_number_in_a_linked_list_to_integer;
