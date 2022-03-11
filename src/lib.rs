@@ -4,6 +4,7 @@ mod data;
 
 mod p0191_number_of_1_bits;
 mod p0202_happy_number;
+mod p0232_implement_queue_using_stacks;
 mod p0283_move_zeroes;
 mod p0389_find_the_difference;
 mod p0496_next_greater_element_i;
