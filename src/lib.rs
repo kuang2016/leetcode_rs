@@ -33,3 +33,4 @@ mod p0404_sum_of_left_leaves;
 mod p1356_sort_integers_by_the_number_of_1_bits;
 mod p0242_valid_anagram;
 mod p0217_contains_duplicate;
+mod p1603_design_parking_system;
