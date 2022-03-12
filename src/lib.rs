@@ -31,3 +31,5 @@ mod p0876_middle_of_the_linked_list;
 mod p0104_maximum_depth_of_binary_tree;
 mod p0404_sum_of_left_leaves;
 mod p1356_sort_integers_by_the_number_of_1_bits;
+mod p0242_valid_anagram;
+mod p0217_contains_duplicate;
