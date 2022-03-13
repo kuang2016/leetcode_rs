@@ -35,3 +35,4 @@ mod p0242_valid_anagram;
 mod p0217_contains_duplicate;
 mod p1603_design_parking_system;
 mod p0303_range_sum_query_immutable;
+mod p0020_valid_parentheses;
