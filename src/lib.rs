@@ -37,3 +37,4 @@ mod p1603_design_parking_system;
 mod p0303_range_sum_query_immutable;
 mod p0020_valid_parentheses;
 mod p0003_longest_substring_without_repeating_characters;
+mod p0071_simplify_path;
