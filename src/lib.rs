@@ -40,3 +40,4 @@ mod p0003_longest_substring_without_repeating_characters;
 mod p0071_simplify_path;
 mod p0896_monotonic_array;
 mod p0028_implement_strstr;
+mod p1249_minimum_remove_to_make_valid_parentheses;
