@@ -43,3 +43,4 @@ mod p0028_implement_strstr;
 mod p1249_minimum_remove_to_make_valid_parentheses;
 mod p0946_validate_stack_sequences;
 mod p0110_balanced_binary_tree;
+mod p0459_repeated_substring_pattern;
